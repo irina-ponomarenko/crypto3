@@ -1,10 +1,345 @@
-@media screen and (max-width: 1600px)  {
+@media screen and (max-width: 1170px)  {
+    .first-screen{
+        padding: 30px 15px 90px;
+    }
 
+    .content-block,
+    .advantages-container{
+        padding: 0 15px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 340px;
+        margin-bottom: 105px;
+        min-height: 488px;
+    }
+    .container-card{
+        justify-content: center;
+    }
+
+    .footer-block{
+        padding: 30px 15px;
+    }
  
 
 }
 
-@media screen and (max-width: 1480px)  {
+@media screen and (max-width: 1050px)  {
+    .percent {
+        font-size: 54px;
+        line-height: 59px;
+    }
 
+    .today .percent {
+        font-size: 65px;
+    }
+
+    .container-list-statistic {
+        padding: 40px 70px;
+    }
+
+}
+
+@media screen and (max-width: 1024px)  {
+    .advantages{
+        flex-direction: column;
+    }
+
+    .advantages-left, .advantages-right {
+        width: 90%;
+    }
+
+    .advantages-left{
+        margin-bottom: 15px;
+    }
+
+    .referal-link-block{
+        flex-direction: column;
+    }
+
+    .container-text-link{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 955px)  {
+    .first-screen{
+        flex-direction: column-reverse;
+    }
+    .left-block {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title{
+        margin-bottom: 14px;
+    }
+
+    .right-block {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .container-main-footer-content{
+        flex-direction: column;
+    }
+
+    .content-footer .logo{
+        margin-bottom: 10px;
+    }
+    .fourth-card ,
+    .third-card{
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 768px)  {
+    .third-section {
+        padding: 110px 0 80px;
+    }
+
+    .third-section:after{
+        height: 110px;
+    }
+
+    .container-card{
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 748px)  {
+    .third-card{
+        margin-bottom: 110px;
+    }
+    .first-screen {
+        padding: 30px 15px 60px;
+    }
+}
+
+@media screen and (max-width: 700px)  {
+
+    .sub-screen {
+        top: -140px;
+    }
+
+    .wrapper-content-block {
+        top: -80px;
+    }
+
+    .fourth-section{
+        top: -38px;
+    }
+
+    .title-block:before{
+        font-size: 150px;
+        top: -32px;
+    }
+
+    .title-block {
+        font-size: 40px;
+    }
+
+    .third-section:after {
+        height: 80px;
+    }
+    .third-section {
+        padding: 80px 0 80px;
+    }
+
+}
+
+@media screen and (max-width: 689px)  {
+    .referal-item{
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 665px)  {
+    .header-content{
+        flex-direction: column;
+        max-height: 131px;
+        padding: 15px;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+
+    .content-header{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .container-list-statistic {
+        padding: 40px 28px;
+    }
+    .first-screen {
+        padding: 30px 15px 25px;
+    }
+}
+
+@media screen and (max-width: 607px)  {
+    .referal-item {
+        max-width: 100%;
+    }
+    .body-table tr td {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .table-header tr th, tfoot tr td{
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 558px)  {
+    .percent {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .today .percent {
+        font-size: 58px;
+    }
+
+    .name-day {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .today .name-day {
+        font-size: 25px;
+    }
+
+    .item-statistic{
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width: 498px)  {
+    .container-list-statistic {
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 478px)  {
+    .content-header{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .container-lang{
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .header-content{
+        max-height: 130px;
+    }
+
+    .social-list{
+        flex-direction: column;
+        position: fixed;
+        left: 10px;
+        top: 140px;
+        z-index: 100000;
+    }
+
+    .social-item {
+        margin: 5px 0;
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+        border-radius: 100%;
+    }
+    .percent {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .today .percent {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 453px)  {
+    .lider-block {
+        padding: 10px;
+    }
+    .table-header tr th, tfoot tr td {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .body-table tr td {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .text-bonus {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 415px)  {
+    .percent {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .today .percent {
+        font-size: 45px;
+    }
+
+    .title-block {
+        font-size: 35px;
+    }
+    .third-section:after {
+        height: 60px;
+    }
+    .third-section {
+        padding: 60px 0 60px;
+    }
+    .title-block:before {
+        font-size: 120px;
+        top: -32px;
+    }
+}
+
+@media screen and (max-width: 409px)  {
+    .info-chart {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 138px;
+    }
+    .item-statistic {
+        max-width: 130px;
+    }
+
+    .chart-container{
+        height: 110px;
+        width: 110px;
+    }
+
+    .title-chart{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px)  {
+    .percent {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .today .percent {
+        font-size: 40px;
+    }
 }
 
