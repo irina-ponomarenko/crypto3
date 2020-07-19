@@ -412,7 +412,7 @@ button:focus{
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
-    background: linear-gradient(23.43deg, rgba(33, 30, 140, 0.39) 0%, #732EBD 100%);
+    background: linear-gradient(23.43deg, rgb(99 95 255 / 39%) 0%, #ca99ff 100%);
     display: flex;
     flex-direction: column;
 }
@@ -443,7 +443,7 @@ button:focus{
     font-size: 30px;
     text-align: center;
     margin: 20px 0;
-    color: #7C7D8D;
+    color: #ffffff;
 }
 
 .summa-level .number-level{
@@ -467,15 +467,17 @@ button:focus{
 }
 .lider-block{
 	padding: 20px;
--webkit-box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
--moz-box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
-box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
-margin-top: 40px;
+    -webkit-box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
+    -moz-box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
+    box-shadow: 0px 2px 5px 24px rgba(115,46,189,0.15);
+    margin-top: 40px;
+    background: #b690ce26;
 }
 
 .body-table tr td{
 	padding: 10px;
     font-size: 18px;
+    color: #ffffff;
 }
 
 .table-header tr th,
@@ -483,13 +485,13 @@ tfoot tr td{
 	font-family: "SF UI Display";
 	font-size: 20px;
 	padding: 10px;
-	color: #9313DB;
+    color: #ca9fe2;
 }
 
 .text-bonus{
 	margin-top: 30px;
 	font-size: 18px;
-	color: #7C7D8D;
+	color: #ffffff;
 }
 
 .third-section{
@@ -631,6 +633,7 @@ tfoot tr td{
     position: relative;
     margin: 0 10px;
     width: 17rem;
+    background: #F5F9FF;
 }
 
 .card-title{
