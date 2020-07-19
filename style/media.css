@@ -223,6 +223,10 @@
         margin: 15px;
     }
 
+    .referal-link-block{
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width: 498px)  {
@@ -268,6 +272,19 @@
     }
     .today .percent {
         font-size: 50px;
+    }
+    .link-ref-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .link{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .copy-btn{
+        width: 100%;
+        margin-right: 0;
     }
 }
 
